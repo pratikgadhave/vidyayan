@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vidyayan/static/css/main.14ebe4b6.chunk.css",
+    "main.js": "/vidyayan/static/js/main.3e9b3220.chunk.js",
+    "main.js.map": "/vidyayan/static/js/main.3e9b3220.chunk.js.map",
+    "runtime-main.js": "/vidyayan/static/js/runtime-main.84eb4083.js",
+    "runtime-main.js.map": "/vidyayan/static/js/runtime-main.84eb4083.js.map",
+    "static/js/2.e1dc6d49.chunk.js": "/vidyayan/static/js/2.e1dc6d49.chunk.js",
+    "static/js/2.e1dc6d49.chunk.js.map": "/vidyayan/static/js/2.e1dc6d49.chunk.js.map",
+    "static/js/3.fab75416.chunk.js": "/vidyayan/static/js/3.fab75416.chunk.js",
+    "static/js/3.fab75416.chunk.js.map": "/vidyayan/static/js/3.fab75416.chunk.js.map",
+    "index.html": "/vidyayan/index.html",
+    "static/css/main.14ebe4b6.chunk.css.map": "/vidyayan/static/css/main.14ebe4b6.chunk.css.map",
+    "static/js/2.e1dc6d49.chunk.js.LICENSE.txt": "/vidyayan/static/js/2.e1dc6d49.chunk.js.LICENSE.txt",
+    "static/media/code1.a482c8da.png": "/vidyayan/static/media/code1.a482c8da.png",
+    "static/media/code2.442808fa.png": "/vidyayan/static/media/code2.442808fa.png",
+    "static/media/code3.86c87c77.png": "/vidyayan/static/media/code3.86c87c77.png",
+    "static/media/code4.b83a15d6.png": "/vidyayan/static/media/code4.b83a15d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84eb4083.js",
+    "static/js/2.e1dc6d49.chunk.js",
+    "static/css/main.14ebe4b6.chunk.css",
+    "static/js/main.3e9b3220.chunk.js"
+  ]
+}
