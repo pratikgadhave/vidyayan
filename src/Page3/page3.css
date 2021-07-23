@@ -1,0 +1,404 @@
+.page-three{
+    
+    width: 100%;
+    height: 1879px;
+
+    background: #EEE7E7;
+    
+}
+.card{
+    width: 272px;
+    height: 298px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-image{
+    padding: 10px 15px;
+    padding-bottom: 0;
+}
+.card-title{
+    padding-left: 0px;
+    text-align: center;
+    
+}
+.card-button{
+    padding-top: 30px;
+}
+.card-button button{
+    padding-top: 10px;
+    width: 100%;
+    height:40px ;
+    background-color: white;
+    color:  #1444EF;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+    border:0;
+    border-top: 1px solid black;
+}
+.card-button button:hover{
+    background-color:#1444EF ;
+    color: white ;
+}
+.card-title h4{
+    
+    height: 21px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #7E57C2;
+}
+
+.card3, .card4{
+    width: 272px;
+    height: 298px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pack-one{
+    display: flex;
+    padding:62px 27px;
+    padding-bottom: 37px;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-bar{
+    
+    display: flex;
+    padding: 0px 575px;
+    justify-content: space-between;
+    
+}
+.small-bar .bar{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+.pack-two{
+    display: none;
+}
+.pack-three{
+    display: none;
+}
+.section-nine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.banner-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width:674px;
+    height: 133px;
+    background-image: linear-gradient(90deg, #41237E 54.69%, #92125F 100%);
+    border-radius: 10px;
+}
+.book-now button{
+    width: 148px;
+    height: 32px;
+    background: #E91E63;
+    border:none;
+    color:white;
+    border-radius: 5px;
+}
+.book-now button:hover{
+    
+    background: #d654c5;
+    
+    color:rgb(0, 0, 0);
+    
+}
+.section-ten{
+    
+    height: 249px;
+    padding-top:28px;
+    margin-top: 28px;
+    background: #EAE7FB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.timeline{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 57px 27px;
+}
+.timeline .spot:hover{
+    
+    transform:rotateZ(7deg);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 61px;
+}
+.heading h1{
+    width: 143px;
+    height: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #590BB2;
+}
+.image-last{
+    padding-left: 45px;
+    padding-top: 50px;
+}
+.container-three{
+    display: flex;
+    
+    align-items: center;
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.book{
+    display: flex;
+    padding: 25px 20px;
+}
+.book .book-info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.book .book-info span{
+    width: 374px;
+    height: auto;
+    padding-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+
+    color: #373365;
+}
+.banner-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 62px;
+}
+.banner-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width:500px;
+    height: 76px;
+    background-image: linear-gradient(90deg, #41237E 54.69%, #92125F 100%);
+    border-radius: 10px;
+}
+.book-now2 button{
+    width: 107px;
+    height: 21px;
+    background: #E91E63;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    
+}
+.book-now2 button:hover{
+    background: #d654c5;
+    
+    color:rgb(0, 0, 0);
+    
+}
+.book-now2 svg{
+    padding-bottom: 16px;
+}
+.book-now2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 768px){
+    .page-three{
+    
+        overflow: hidden;
+        width:100%;
+        height:max-content;
+        
+    }
+
+    .pack-one{
+        display: grid;
+        padding:62px 27px;
+        padding-bottom: 37px;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card{
+        width: 40vw;
+        height: 55vh;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .card-image{
+        
+        padding: 10px 15px;
+        padding-bottom: 0;
+    }
+    .card-image img{
+        width: 125px;
+        height: auto;
+        
+    }
+    .card-title{
+        width: 35vw;
+        display: grid;
+        padding-left: 10px;
+        text-align: center;
+        
+  }
+  .card-title h1{
+      font-size:0;
+  }
+    
+    .card-button{
+        padding-top: 30px;
+    }
+    .card-button button{
+        padding-top: 10px;
+        width: 100%;
+        background-color: white;
+        color:  #1444EF;
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+        border:0;
+        border-top: 1px solid black;
+    }
+    .card-title h1{
+        width: 200px;
+        height: 21px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+    
+    
+        color: #7E57C2;
+    }
+    .card3, .card4{
+        display:none ;
+    }
+    .small-bar{
+        display: flex;
+        
+        padding: 25px 100px;
+        justify-content: space-between;
+        
+    }
+    .section-nine{
+        width: 100%;
+        padding-top: 35px;
+        
+    }
+    .banner-one{
+        padding: 10px 20px;
+        width:337px; 
+        height: 65px; 
+    }
+    .banner-one .vector svg{
+        width: 70px;
+        height: 70px;
+    }
+    .book-now button{
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+        
+    }
+    .section-ten{
+        width: 100%;
+        height: 200px;
+        padding-top:20px;
+        margin-top: 20px;
+        
+    }
+    .timeline{
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        padding-top: 5px;
+    }
+    .timeline .spot svg{
+        width: 70px;
+        height: 55px;
+    }
+    .image-last{
+        display: none;
+    }
+    .books{
+        width: 80%;
+        
+    }
+    
+    .book-info {
+        display:inline-blocks;
+        
+        word-wrap: break-word;
+        width: 80%;
+        
+    }
+    .book-info span{
+        display:inline-blocks;
+        
+        word-wrap: break-word;
+        width: 80%;
+        font-size: 1em;
+    }
+    .banner-body{
+        padding-bottom: 25px;
+    }
+    .banner-two{
+        
+        width:300px;
+        height: 60px;
+        
+        
+    }
+    .book-now2 button{
+        width: 90px;
+        height: 15px;
+        font-size: 10px;
+        
+    }
+    .book-now2 svg{
+        padding-bottom: 16px;
+        width: 135px;
+    }
+    .book-now2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+
+}
